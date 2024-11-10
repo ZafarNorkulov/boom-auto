@@ -54,9 +54,7 @@ const ClientPage = ({ newsData }) => {
           <h2 className="mb-[15px] text-[#202020] text-[28px] font-black max-md:text-lg max-md:mb-1">
             {cardNewsData1.title}
           </h2>
-          <p className="text-[#989898] mb-[22px] text-sm font-medium max-md:text-xs max-md:mb-5">
-            {formattedDate}
-          </p>
+          <p className="text-[#989898] mb-[22px] text-sm font-medium max-md:text-xs max-md:mb-5">{formattedDate}</p>
           <img
             src={cardNewsData1.image}
             alt="title"
@@ -68,29 +66,21 @@ const ClientPage = ({ newsData }) => {
           <div className="flex flex-col p-[18px]  border border-[#E6E6E6] rounded-[15px]">
             <div className="flex items-center ">
               <Image src={imagewarn} alt="warn" />
-              <h4 className="mx-5 text-[#202020] font-bold max-md:text-[16px]">
-                Внимание!
-              </h4>
+              <h4 className="mx-5 text-[#202020] font-bold max-md:text-[16px]">Внимание!</h4>
             </div>
             <p className="my-[10px] text-[#989898] font-medium max-md:text-[13px]">
-              Важно отметить, что акцент на импорт авто из Южной Кореи
-              подтверждает и официальная статистика, в числе которых и данные
-              южнокорейской таможни. В первой половине 2022 года объемы продаж
-              выросли в шесть раз.
+              Важно отметить, что акцент на импорт авто из Южной Кореи подтверждает и официальная статистика, в числе
+              которых и данные южнокорейской таможни. В первой половине 2022 года объемы продаж выросли в шесть раз.
             </p>
             <p className="text-[#989898] font-medium max-md:text-[13px]">
-              Повышение показателей обусловлено и тем, что южнокорейские
-              компании не могут обеспечить производительность заводов,
-              соответствующую запросам потребителей, проживающих на территории
-              России из-за проблем с логистикой. Поэтому, многие покупают машины
-              напрямую из Южной Кореи, выбирая более выгодные условия.
+              Повышение показателей обусловлено и тем, что южнокорейские компании не могут обеспечить производительность
+              заводов, соответствующую запросам потребителей, проживающих на территории России из-за проблем с
+              логистикой. Поэтому, многие покупают машины напрямую из Южной Кореи, выбирая более выгодные условия.
             </p>
           </div>
         </div>
         <div className="w-2/6 mt-[190px] p-5 shadow-lg h-max rounded-[15px] max-md:hidden">
-          <h3 className="text-[#202020] font-semibold text-[20px] pr-[100px]">
-            Читайте другие статьи в нашем блоге:
-          </h3>
+          <h3 className="text-[#202020] font-semibold text-[20px] pr-[100px]">Читайте другие статьи в нашем блоге:</h3>
           <div className="flex justify-between mt-5 pb-3 border-b border-[#DDDDDD] items-center">
             <p className="text-sm text-[#989898] font-medium pr-[100px]">
               СРАВНЕНИЕ ЯПОНСКИХ И НЕМЕЦКИХ АВТОМОБИЛЕЙ: ЧТО ЛУЧШЕ?
@@ -110,9 +100,7 @@ const ClientPage = ({ newsData }) => {
             <FaAngleRight className="text-sm text-[#989898]" />
           </div>
           <div className="flex mt-[58px] items-center cursor-pointer">
-            <h4 className="text-[#202020] text-sm font-semibold">
-              Читать больше новостей
-            </h4>
+            <h4 className="text-[#202020] text-sm font-semibold">Читать больше новостей</h4>
             <Image src={carmore} alt="carmore" className="ml-[10px] h-3 w-3" />
           </div>
         </div>
